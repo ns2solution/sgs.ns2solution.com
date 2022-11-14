@@ -1,1 +1,1 @@
-# sgs.ns2solution.com
+SGS Warrior Web Application

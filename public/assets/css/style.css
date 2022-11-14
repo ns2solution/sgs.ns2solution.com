@@ -1,0 +1,161 @@
+.has-error {
+    border: 1px solid #ff3366 !important;
+}
+.has-error~.select2-container .select2-selection.select2-selection--single {
+    border: 1px solid #ff3366 !important
+}
+
+.dropify-wrapper .dropify-message p{
+    font-size: 16px;
+}
+
+.pesanan-belum-dibayar{
+    background: #F7B532 !important;
+    color:#fff !important;
+}
+.pesanan-menunggu-konfirmasi{
+    background: #419DD5 !important;
+    color:#fff !important;
+}
+.pesanan-diproses{
+    background: #419DD5 !important;
+    color:#fff !important;
+}
+.pesanan-dikirim{
+    background:#419DD5 !important;
+    color:#fff !important;
+}
+.pesanan-tiba{
+    background: #419DD5 !important;
+    color:#fff !important;
+}
+.pesanan-selesai{
+    background:#009685 !important;
+    color:#fff !important;
+}
+.pesanan-dikomplain{
+    background: #f44336 !important;
+    color:#fff !important;
+}
+.pesanan-dibatalkan{
+    background:#f44336 !important;
+    color:#fff !important;
+}
+.pesanan-siap-diambil{
+    background:#4CAF50 !important;
+    color:#fff !important;
+}
+.menunggu-konfirmasi-pembeli{
+    background:#a6a826 !important;
+    color:#fff !important;
+}
+
+
+
+
+
+/* BUAT DASHBOARD */
+
+
+.lazy-loading {
+    position: relative;
+    background-color: #FFF;
+    border-radius: 6px;
+    /* height: 500px; */
+    overflow: hidden;
+    /* width: 350px; */
+    /* margin: 40px auto; */
+    box-shadow: 0px 1px 13px -4px hsla(0, 0%, 0%, 0.09) !important;
+    border: 1px solid #f1f1f1 !important;
+    min-width: calc(25% - 30px);
+    height: 335px;
+    margin:0 15px 30px;
+  }
+  
+.lazy-loading .shimmerBG {
+-webkit-animation-duration: 1.2s;
+        animation-duration: 1.2s;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+-webkit-animation-name: shimmer;
+        animation-name: shimmer;
+-webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+background: #E5F0FB;
+/* background: -webkit-gradient(linear, left top, right top, color-stop(4%, #c1dceb), color-stop(25%, #a3cbe1), color-stop(36%, #c1dceb)); */
+/* background: linear-gradient(to right, #c1dceb 4%, #a3cbe1 25%, #c1dceb 36%); */
+background:linear-gradient(to right, #d4d4d4 4%, #c7c7c7 25%, #e6e6e6 36%);
+background-size: 1200px 100%;
+}
+@-webkit-keyframes shimmer {
+0% {
+    background-position: -100% 0;
+}
+100% {
+    background-position: 100% 0;
+}
+}
+@keyframes shimmer {
+0% {
+    background-position: -1200px 0;
+}
+100% {
+    background-position: 1200px 0;
+}
+}
+.lazy-loading .media {
+height: 200px;
+}
+.lazy-loading .p-32 {
+padding: 15px;
+}
+.lazy-loading .title-line {
+height: 24px;
+width: 100%;
+margin-bottom: 12px;
+border-radius: 20px;
+}
+.lazy-loading .content-line {
+height: 8px;
+width: 100%;
+margin-bottom: 16px;
+border-radius: 8px;
+}
+.lazy-loading .end {
+width: 40%;
+}
+
+.m-t-24 {
+margin-top: 24px;
+}
+
+.lazy-loading .media{
+    height: 173px;
+}
+
+.test{
+    border:1px solid red !important;
+      
+}
+
+@media (max-width: 991.98px) {
+    .lazy-loading-row .lazy-loading{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width:  calc(50% - 30px);
+        margin: 0 15px 30px;
+    }
+ }
+
+@media (max-width: 1199.98px) {
+    .lazy-loading-row .lazy-loading{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: calc(33.33% - 30px);
+        margin: 0 15px 30px;
+    }
+}

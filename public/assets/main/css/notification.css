@@ -1,0 +1,15 @@
+#notification {
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 3.5;
+	overflow: hidden; 
+	-webkit-box-shadow: 0 0 5px black;
+	-moz-box-shadow: 0 0 5px black;
+	box-shadow: 0 0 5px black;
+}

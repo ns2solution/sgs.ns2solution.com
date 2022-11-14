@@ -1,0 +1,38 @@
+.btn {
+	transition: 0.4s;
+	background-size: 200% auto;
+	border: none;
+}
+.btn:hover:enabled {
+	background-position: right center;
+}
+.btn-gradient {
+	background-image: linear-gradient(to right, #2a8fcc 0%, #8ecdf3 51%, #2a8fcc 100%);
+}
+
+.a-href {
+	color: inherit;
+}
+.a-href:hover {
+	color: #2a8fcc;
+}
+
+input {
+	background-color: #fff !important;
+}
+
+.icn-spinner {
+	animation: spin-animation 1.5s infinite;
+	display: inline-block;
+}
+@keyframes spin-animation {
+	0% {
+		transform: scale(1,1);
+	}
+	50% {
+		transform: scale(1.2,1.2);
+	}
+	100% {
+		transform: scale(1,1);
+	}
+}
